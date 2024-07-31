@@ -96,7 +96,7 @@ class OTPCreateView(APIView):
             headers = {'Authorization': f'Bearer {token}'}
             data = {
                 'mobile_phone': phone_number,
-                'message': f'Kaizen Books sayti orqali ro\'yxatdan o\'tish uchun tasdiqlash kodingiz: {otp}',
+                'message': f'NarxNav sayti orqali ro\'yxatdan o\'tish uchun tasdiqlash kodingiz: {otp}',
                 'from': '4546'
             }
             response = requests.post(url, headers=headers, data=data)
