@@ -1,0 +1,19 @@
+server {
+    listen 8080;
+    server_name 185.105.89.222;
+
+    client_max_body_size 100M;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/akakce/backend/akakce/akakce.sock;
+    }
+
+    location /static/ {
+        alias /home/akakce/backend/akakce/staticfiles/;
+    }
+
+    location /media/ {
+        alias /home/akakce/backend/akakce/media/;
+    }
+}

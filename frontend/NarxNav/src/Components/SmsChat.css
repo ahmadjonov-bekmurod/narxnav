@@ -1,0 +1,48 @@
+.sms-icon-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .sms-icon {
+    color: blue;
+    font-size: 40px;
+  }
+  
+  .sms-chat-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgb(255, 254, 254);
+    padding: 20px;
+    box-shadow: 24;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+/* In SmsChat.css or another appropriate CSS file */
+ @media (min-width: 787px) {
+  .left-menu-toggle-btn,
+  .menu-icon-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 787px) {
+  .LeftMenu {
+    background-color: rgb(218, 235, 250);
+    height: 78vh; 
+    width: 90vh;
+    z-index: 100;
+  }
+
+}
+

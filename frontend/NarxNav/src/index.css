@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dark button {
+  background-color: rgb(6, 64, 126);
+  color: aliceblue;
+}
+
+.dark select {
+  background-color: rgb(6, 64, 126);
+  color: aliceblue;
+}
+.dark .reklama{
+  background-color: rgb(6, 64, 126);
+  color: aliceblue;
+}
+
+.dark .footer{
+  color: rgb(253, 254, 255);
+}
+.dark .book-name{
+  color: rgb(255, 255, 255);
+}
+.dark .title-name {
+  color: rgb(255, 255, 255);
+}
+.dark .sms-in-card {
+  color: rgb(0, 0, 0);
+}
+.dark .name { 
+  color: rgb(5, 5, 5);
+}
+.dark .auther-name { 
+  color: rgb(255, 252, 252);
+  font-weight: 900;
+  letter-spacing: 1px;;
+}
+.dark .xarid-bg {
+  background-color: rgb(6, 64, 126);
+  color: aliceblue;
+  border: none;
+}
+.dark .promokod {
+  background-color: rgb(8, 179, 19);
+  color: aliceblue;
+  border: none;
+}
+.dark .promokod:hover {
+  background-color: rgb(2, 119, 10);
+  color: aliceblue;
+  border: none;
+}
+.dark .book-desc {
+  background-color: rgb(6, 64, 126);
+  color: aliceblue;
+}
+
+.dark .kitob-xaqida { 
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.dark .accound-box {
+  background-color: rgb(6, 64, 126);
+  color: aliceblue;
+}
+
+.dark .p_yangilandi {
+  color: black;
+}
+.dark .left-menu:hover {
+  color: black;
+  font-weight: 600;
+}
+.dark .messages {
+  color: black;
+  font-weight: 600;
+}
+.dark .chegirma-raqam {
+  color: rgb(255, 255, 255);
+}
+
+.dark {
+    --tw-bg-opacity: 1;
+    background-color: rgb(24, 33, 69, var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+  }

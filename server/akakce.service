@@ -1,0 +1,12 @@
+[Unit]
+Description=Akakce
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/home/akakce/backend/akakce
+ExecStart=/home/akakce/venv/bin/gunicorn --access-logfile - --workers 1 --bind unix:/home/akakce/backend/akakce/akakce.sock akakce.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
